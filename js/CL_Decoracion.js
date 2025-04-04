@@ -15,12 +15,12 @@ export default class CL_Decoracion extends CL_Producto{
     }
 
     incremento(){
-        if(this._color == 2){
+        if(this._color == 2 && this.proveedor == 2){
             return this.costoBase * 60/100;
-        }
-        else if(this._color == 1 || this._color == 3){
+        }else{
             return this.costoBase * 40/100;
-        }
+        
+    }
     }
 
     gananciaNac(){
