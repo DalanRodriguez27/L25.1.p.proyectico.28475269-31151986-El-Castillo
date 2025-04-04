@@ -89,7 +89,7 @@ salida.innerHTML = `
 </table>
 <br>Cantidad de productos: ${tienda.cantidadProductos()}<br>
 Cantidad de productos importados: ${tienda.cantidadProductosImportados()}<br>
-Porcentaje de productos importados: ${tienda.porcentajeProductosImportados()}<br>
+Porcentaje de productos importados: ${tienda.porcentajeProductosImportados()}%<br>
 <br>Total vendido: ${tienda.totalVendido()}<br>
 Ganancia nacional: ${tienda.gananciaNacional()}<br>
-Porcentaje de ganancia nacional: ${tienda.procentajeGananciaNacional().toFixed(2)}<br>`;
+Porcentaje de ganancia nacional: ${tienda.procentajeGananciaNacional().toFixed(2)}%<br>`;
